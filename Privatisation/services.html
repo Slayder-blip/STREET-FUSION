@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header id="header">
+        <div id="logo">
+        <img class="logoPng" src="blanc plein.png" alt="logo" height="60px"/>
+        <h3>STREET FUSION</h3>
+        </div>
+
+        <div id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div>
+            <ul id="menu">
+                <li><a href="../Accueil/index.html">ACCUEIL</a></li>
+                <li><a href="../Menus/index.html">MENUS</a></li>
+                <li><a href="../Localisation/page Localisation/localisation.html">CARTE</a></li>
+                <li><a href="services.html">NOS SERVICES</a></li>
+                <li><button>Connexion</button></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="priv-contenu">
+
+    <h1>Nos offres</h1>
+    <h2>Choisissez la formule qui vous convient le mieux.</h2>
+
+    
+    <section class="priv-formules">
+
+        <div class="priv-f1">
+            <div class="priv-infos">
+                <h3>FORMULE STREET</h3>
+                <h4>Simple et efficace.</h4>
+                <div id="priv-prix">
+                    <span>8 € / personne</span>
+                </div>
+            </div>
+
+            <div class="priv-avantages">
+                <div class="priv-liste">
+                    <li>Menu unique</li>
+                    <li>Boisson soft incluse</li>
+                    <li>Service rapide</li>
+                    <li>20 personnes ou +</li>
+                </div>
+            </div>
+        </div>
+
+        <div class="priv-f2">
+            <div class="priv-infos">
+                <h3>FORMULE FUSION</h3>
+                <h4>Pour les plus gourmands.</h4>
+                <div id="priv-prix">
+                    <span>14 € / personne</span>
+                </div>
+            </div>
+
+            <div class="priv-avantages">
+                <div class="priv-liste-premium">
+                    <li>4 menus à créer</li>
+                    <li>Recettes exclus</li>
+                    <li>Soft drinks</li>
+                    <li>Accompagnement X2</li>
+                    <li>Prestation musicale</li>
+                </div>
+            </div>
+        </div>
+
+        <div class="priv-f3">
+            <div class="priv-infos">
+                <h3>FORMULE STREET+</h3>
+                <h4>Le juste milieu.</h4>
+                <div id="priv-prix">
+                    <span>12 € / personne</span>
+                </div>
+            </div>
+
+            <div class="priv-avantages">
+                <div class="priv-liste">
+                    <li>2 menus à créer</li>
+                    <li>Soft drink</li>
+                    <li>Accompagnements</li>
+                    <li>Produits premium</li>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="priv-formulaire">
+        <div class="priv-container">
+            <div class="priv-reservation">RÉSERVATION</div>
+
+            <div id="container-boutons">
+            <div class="priv-nom-prenom">
+                <div class="priv-nom">
+                    <input type="text" placeholder="Nom">
+                </div>
+                <div class="priv-prenom">
+                    <input type="text" placeholder="Prénom">
+                </div>
+            </div>
+
+            <div class="priv-mail">
+                <input type="text" placeholder="E-mail">
+            </div>
+
+            <div class="priv-type-reservation">
+                <input type="text" placeholder="Type de réservation">
+            </div>
+
+            <div class="priv-date-personnes">
+                <div class="priv-date">
+                    <input type="text" placeholder="Date">
+                    <!-- Normalement le type est sencé être DATE, 
+                    mais je ne peux pas changer le placeholder 
+                    donc pour des raisons d'esthétique j'ai mis 
+                    type TEXT.-->
+                </div>
+                <div class="priv-personnes">
+                    <input type="text" placeholder="Nombre de personnes">
+                </div>
+                    <!-- Pareil ici.-->
+                </div>
+
+            </div>
+
+            <div class="priv-reserver"><span>Valider ma réservation</span></div>
+
+        </div>
+    </section>
+    </div>
+    
+
+    <footer>
+        <div class="footer-top">
+            <div id="contact">
+                <ul>
+                    <li><h3>Nos contacts :</h3></li>
+                    <li>
+                        <p>Email : streetFusion@gmail.com</p>
+                    </li>
+                    <li>
+                        <p>Téléphone : 06 05 04 03 02</p>
+                    </li>
+                </ul>
+            </div>
+    
+            <div id="reseau">
+                <ul>
+                    <li><h3>Nos réseaux sociaux :</h3></li>
+                    <li class="icons">
+                        <i class="fa-brands fa-facebook"></i></a>
+                        <i class="fa-brands fa-x-twitter"></i></a>
+                        <i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+        <div id="legal">
+            <ul class="footer-links">
+                <li><p>&copy; 2025 Street Fusion. Tous droits réservés.</p></li>
+                <li>Mentions légale</li>
+                <li>Politique de confidentialité</li>
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
+</html>
