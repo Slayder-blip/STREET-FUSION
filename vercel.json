@@ -11,10 +11,6 @@
     {
       "source": "/Privatisation",
       "destination": "/Privatisation/services.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/Accueil/index.html"
     }
   ]
 }
