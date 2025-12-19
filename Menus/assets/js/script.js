@@ -5,20 +5,20 @@ const burgers = [
     name: "Giga Burger", //attribut
     prix: "12€",
     image: "./assets/img/burger.defaut.png",
-    description: "Salade, tomates, steack haché, fromage.",
+    description: "Salade, tomates, steak haché, fromage.",
   },
   {
     name: "Burger Raclette",
     prix: "12€",
     image: "./assets/img/burger2.png",
     description:
-      "Salade, tomates, steack haché, fromage à raclette, écrasé de pomme de terre.",
+      "Salade, tomates, steak haché, fromage à raclette, écrasé de pomme de terre.",
   },
   {
     name: "Green Burger",
     prix: "12€",
     image: "./assets/img/greenBurger.png",
-    description: "Salade, tomates, steack vegan, sauce soja.",
+    description: "Salade, tomates, steak vegan, sauce soja.",
   },
   {
     name: "Chicken Burger",
@@ -35,7 +35,7 @@ const tacos = [
     name: "Tacos Kipik", //attribut
     prix: "4,50€",
     image: "./assets/img/kipik.png",
-    description: "Tenders + viande aux choix, frittes, sauce harissa.",
+    description: "Tenders + viandes aux choix, frites, sauce harissa.",
   },
   {
     name: "Green Tacos",
@@ -48,7 +48,7 @@ const tacos = [
     name: "Tacos raclette",
     prix: "7€",
     image: "./assets/img/raclette.png",
-    description: "Tacos au fromage de raclette.",
+    description: "Tacos au fromage à raclette.",
   },
   {
     name: "Giga Tacos",
@@ -72,19 +72,19 @@ const accompagnements = [
     prix: "6.50€",
     image: "./assets/img/salade.png",
     description:
-      "Salade, tomates, mozarella, carrotte rapé, sauce césar et oignons fris.",
+      "Salade, tomates, mozarella, carottes rapé, sauce césar et oignons fris.",
   },
   {
     name: "Tenders kipik",
     prix: "7€",
     image: "./assets/img/tenders.png",
-    description: "Filet de poulet recouvert d'une fritture maison.",
+    description: "Filet de poulet recouvert d'une friture maison.",
   },
   {
     name: "Onion rings",
     prix: "5€",
     image: "./assets/img/oingnons.png",
-    description: "Frittes de pomme de terre fris.",
+    description: "frites de pomme de terre fris.",
   },
 ];
 
