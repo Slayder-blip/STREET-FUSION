@@ -1,19 +1,15 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "destination": "/Accueil/index.html"
-    },
-    {
-      "source": "/localisation",
-      "destination": "/Localisation/pageLocalisation/localisation.html"
-    },
-    {
-      "source": "/menus",
+      "source": "/Menus",
       "destination": "/Menus/menus.html"
     },
     {
-      "source": "/services",
+      "source": "/Localisation",
+      "destination": "/Localisation/page Localisation/localisation.html"
+    },
+    {
+      "source": "/Privatisation",
       "destination": "/Privatisation/services.html"
     },
     {
