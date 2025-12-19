@@ -1,8 +1,24 @@
 {
-    "routes": [
-    { "src": "/localisation", "dest": "/Localisation/page Localisation/localisation.html" },
-    { "src": "/menus", "dest": "/Menus/menus.html" },
-    { "src": "/services", "dest": "/Privatisation/services.html" },
-    { "src": "/(.*)", "dest": "/Accueil/index.html" }
-    ]
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/Accueil/index.html"
+    },
+    {
+      "source": "/localisation",
+      "destination": "/Localisation/pageLocalisation/localisation.html"
+    },
+    {
+      "source": "/menus",
+      "destination": "/Menus/menus.html"
+    },
+    {
+      "source": "/services",
+      "destination": "/Privatisation/services.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/Accueil/index.html"
+    }
+  ]
 }
